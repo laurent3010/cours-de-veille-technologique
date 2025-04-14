@@ -20,3 +20,21 @@ idées de projet
 
 -defits
  comem defi je pense que configuré les port web pour rendre accesible ce server par internet serais un etape qu'il faudra geré mon setup utilise directement la box internet comme connection internet, pour mon setup les ai demande beaucoup de puissance pour la carte graphique je ne sais pas a quelle point ma 4060 poura fournir pour ce projet ce la pourais impacté la rapidité des reponse coté ai. les defi coté logiciel serais lié au restriction et a la configuration sur les different model d'ai
+
+ etape 3
+
+ 1. creation d'un environement web de chat ai
+
+ 2. le but du projet est de crée un serveur web ou les utilisateur pourons utilisé des model d'ai pour repondre a leur question et effectuer leur taches
+
+   -le sujet des ai m'a attiré depuis un moment mais apres une discution avec mon directeur de stage il fut interessé par l'idée d'un ai local et independant des collecte de donné fait par les entrepride gerant les ai tout public j'ai donc pensé faire mon projet dessu pour lu proposé une implementation d'entreprise
+
+ 3.server d'ai ainsi que qu'un ui pour le laire roulé les ai.
+  crée un bot disscord pour faire  jouer de la musique
+  faire une preuve de concept avec pyton sur le moter de jeu renpy
+  aprendre wordpress et faire une preuve de concept
+  tenter de faire roulé un programe de feuille de temps en microsoft excel 
+
+  -sur les 5 projet dont j'ai fait des recherches j'ai pensé choisir quelquechose servant dans lke cadre de mon staje comme sa je serais capable de travaillé la dessu durant les heure de travail seul 2 des projet correspondais a quelque chose qui pourais utiliser en entreprise leprogram excel de feuille de temps et les ai personel mais vue que nous avons deja fait de o
+
+
