@@ -1,48 +1,61 @@
 # cours-de-veille-technologique
-pour le cours de  veille technologique de nicolas en mars 2025
 
-idées de projet 
+Projet réalisé dans le cadre du cours de veille technologique de Nicolas – mars 2025
 
-1. server d'ai ainsi que qu'un ui pour le laire roulé les ai.
-2. crée un bot disscord pour faire  jouer de la musique
-3. faire une preuve de concept avec pyton sur le moter de jeu renpy
-4. aprendre wordpress et faire une preuve de concept
-5. tenter de faire roulé un programe de feuille de temps en microsoft excel 
+## Idées de projets
 
- projet  selectionné 
+1. Créer un serveur d’IA ainsi qu'une interface utilisateur (UI) pour le faire fonctionner.
+2. Créer un bot Discord pour jouer de la musique.
+3. Faire une preuve de concept en Python avec le moteur de jeu Ren'Py.
+4. Apprendre à utiliser WordPress et développer une preuve de concept.
+5. Tenter de faire fonctionner un programme de feuille de temps dans Microsoft Excel.
 
-- server d'ai ainsi que qu'un ui pour le laire roulé les ai.
+## Projet sélectionné
 
-- j'ai choisi ce sujet car il pourais avoir des aplication pratique la ou je fais mon stage j'ai aussi trouver plusieur methode de le faire facile a suivre la place que prend les inteligence artificiel dans notre travail de programation vaux aussi la peine de s'y interessé pour voire comment sa marche
+- Créer un serveur d’IA avec une interface utilisateur pour l’exploiter.
 
-- ressource
-  j'ai besoin de olama pour fournir des model d'ai opensource et un environement pour les lancer. ensuite j'Ai besoin de Open webUi pour rendre se projet utilisable sur une page web ofrant un interface utilisateur et un management graphyque coté admin en plus c'est opensource. en bonus je devrais aussi faire fonctionné en tendem stable diffusion pour une generation d'image
+### Pourquoi ce choix ?
 
--defits
- comem defi je pense que configuré les port web pour rendre accesible ce server par internet serais un etape qu'il faudra geré mon setup utilise directement la box internet comme connection internet, pour mon setup les ai demande beaucoup de puissance pour la carte graphique je ne sais pas a quelle point ma 4060 poura fournir pour ce projet ce la pourais impacté la rapidité des reponse coté ai. les defi coté logiciel serais lié au restriction et a la configuration sur les different model d'ai
+J'ai choisi ce sujet parce qu’il pourrait avoir des applications pratiques dans mon milieu de stage. J’ai aussi trouvé plusieurs méthodes faciles à suivre pour le mettre en place. L’intelligence artificielle prend de plus en plus de place dans notre travail de programmation, donc je trouve pertinent de m’y intéresser pour comprendre son fonctionnement.
 
- etape 3
+### Ressources nécessaires
 
- 1. creation d'un environement web de chat ai
+- **Ollama** : pour fournir des modèles d’IA open source et un environnement d'exécution.
+- **Open WebUI** : pour permettre une utilisation sur une page web avec une interface utilisateur et une gestion graphique côté administrateur (également open source).
+- En bonus, je souhaiterais aussi faire fonctionner **Stable Diffusion** pour la génération d’images.
 
- 2. le but du projet est de crée un serveur web ou les utilisateur pourons utilisé des model d'ai pour repondre a leur question et effectuer leur taches
+### Défis à prévoir
 
-   -le sujet des ai m'a attiré depuis un moment mais apres une discution avec mon directeur de stage il fut interessé par l'idée d'un ai local et independant des collecte de donné fait par les entrepride gerant les ai tout public j'ai donc pensé faire mon projet dessu pour lu proposé une implementation d'entreprise
+- Configuration des ports pour rendre le serveur accessible par Internet, en tenant compte que ma connexion passe directement par la box.
+- La puissance graphique nécessaire : je ne sais pas dans quelle mesure ma carte graphique (RTX 4060) pourra répondre aux besoins, ce qui pourrait ralentir les réponses de l’IA.
+- Les défis logiciels seront liés aux restrictions et à la configuration des différents modèles d’IA.
 
- 3.server d'ai ainsi que qu'un ui pour le laire roulé les ai.
-  crée un bot disscord pour faire  jouer de la musique
-  faire une preuve de concept avec pyton sur le moter de jeu renpy
-  aprendre wordpress et faire une preuve de concept
-  tenter de faire roulé un programe de feuille de temps en microsoft excel 
+---
 
-  -sur les 5 projet dont j'ai fait des recherches j'ai pensé choisir quelquechose servant dans lke cadre de mon staje comme sa je serais capable de travaillé la dessu durant les heure de travail seul 2 des projet correspondais a quelque chose qui pourais utiliser en entreprise leprogram excel de feuille de temps et les ai personel mais vue que nous avons deja fait de l'excel durant le cours d'initiation a la profession malgré que nous n'avons pas fait de program sur celui-ci je n'ai pas voulue prendre de chance
+## Étape 3 – Présentation du projet
 
-  4. l'objectif principale est d'avoir un interface web pour le server et les ai back end ceci serafait avec OpenUi ensuite je vais utilisé olama pour avoir acces aux different models d'ai. et pour finir j'aimerais avoir stable diffusion de connecter pour donné la posibilité d'avoir des image accesible par les ai. les objectifs sont donc d'avoir ces 3 composant de fonctionnel.
+1. **Création d’un environnement web de chat IA**
+2. **Objectif du projet** : créer un serveur web où les utilisateurs pourront interagir avec des modèles d’IA pour poser des questions ou effectuer des tâches.
 
-  5. pour la realisation je pense installé olama en premier et tester la fonctionalité des different model d'ai ensuite j'utiliserais OpenUi par la suite avec openUi j'aurais un interface administrateur pour configuré les different model d'ai de olamace qui me permettera de c'é des ais personnel avec des consigne specifique.pour continuer ilfaudra configuré une connection entre OpenUi et stable diffusion pour que les models d'ai texte puisse comprendre et generé des image sur demande. pour finir une configuration network de ma connection reseau sera nessesaire pour rendre ce mini serveur public.
+> Le sujet de l’IA m’intéresse depuis un moment. Après une discussion avec mon directeur de stage, il s’est montré intéressé par l’idée d’une IA locale, indépendante des grandes entreprises qui collectent des données. J’ai donc pensé développer ce projet pour lui proposer une implémentation d’entreprise.
 
-  6. pour les outils utilisé olama, Openui, stable difusion et unbuntu seron nesesaire jaurais beson de plusieur model d'ai dans la librairie d'olama pour ce projet et la configuration des ai ce fera dans les fichier LLM
+3. Rappel des idées de départ :
+   - Créer un serveur d’IA avec une interface utilisateur.
+   - Créer un bot Discord musical.
+   - Preuve de concept en Python avec Ren'Py.
+   - Apprentissage de WordPress avec une preuve de concept.
+   - Feuille de temps dans Excel.
 
-  7. le resulta sera un prototype fonctionel d'un environement utilisateur et de la fonctionalité des differents fonction de OpenUi ( des lenteurs peuve existé si le projet pernd trop de ressource car mon setup personel peux ne pas ê tre le plus optimisé pour faire roullé ce projet.)
+Parmi ces 5 projets, j’ai choisi celui qui pouvait servir dans le cadre de mon stage. Cela me permettra d’y travailler pendant mes heures de travail. Deux projets étaient adaptés à un usage en entreprise : la feuille de temps Excel et l’IA. Mais comme nous avons déjà vu Excel dans un autre cours, je préfère me concentrer sur l’IA.
 
+4. **Objectif principal** : avoir une interface web pour le serveur et les IA en backend. Cela sera fait avec OpenUI. Ensuite, j’utiliserai Ollama pour accéder aux différents modèles d’IA. Enfin, j’aimerais connecter Stable Diffusion pour permettre la génération d’images.
 
+5. **Plan de réalisation** :
+   - Installer Ollama et tester les modèles d’IA.
+   - Utiliser OpenUI pour configurer l’interface administrateur.
+   - Configurer la connexion entre OpenUI et Stable Diffusion pour que les IA textuelles puissent générer des images.
+   - Configurer le réseau pour rendre le serveur accessible publiquement.
+
+6. **Outils utilisés** : Ollama, OpenUI, Stable Diffusion, Ubuntu. J’aurai besoin de plusieurs modèles d’IA disponibles dans la librairie Ollama. La configuration des IA se fera dans les fichiers LLM.
+
+7. **Résultat attendu** : un prototype fonctionnel avec une interface utilisateur et les fonctionnalités d’OpenUI. Des lenteurs peuvent survenir si le projet demande trop de ressources, car mon setup personnel n’est peut-être pas assez puissant.
